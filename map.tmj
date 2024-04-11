@@ -1757,6 +1757,11 @@
                          "value":false
                         }, 
                         {
+                         "name":"code",
+                         "type":"string",
+                         "value":"0000"
+                        }, 
+                        {
                          "name":"doorVariable",
                          "type":"string",
                          "value":"doorMeeting2"
