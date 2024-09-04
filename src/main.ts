@@ -5,6 +5,7 @@ import { bootstrapExtra } from "@workadventure/scripting-api-extra";
 // Waiting for the API to be ready
 WA.onInit().then(() => {
 
+/*
     WA.room.onEnterLayer("roofZone").subscribe(() => {
         WA.room.hideLayer("Roof/roof1");
         WA.room.hideLayer("Roof/roof2");
@@ -32,7 +33,7 @@ WA.onInit().then(() => {
     WA.room.onLeaveLayer("roofZoneRoom2").subscribe(() => {
         WA.room.showLayer("Roof/roofMeeting2");
     });
-
+*/
     // The line below bootstraps the Scripting API Extra library that adds a number of advanced properties/features to WorkAdventure
     bootstrapExtra().then(() => {
         console.log('Scripting API Extra ready');
